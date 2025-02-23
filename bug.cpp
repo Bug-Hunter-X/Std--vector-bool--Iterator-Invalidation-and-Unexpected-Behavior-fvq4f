@@ -1,0 +1,1 @@
+std::vector<bool> is a special case in the C++ Standard Template Library (STL).  While it behaves like a vector in many ways, it doesn't store bools directly as individual bits.  Instead, it often uses bit packing to conserve memory.  This optimization can lead to unexpected behavior, especially when accessing elements via iterators or pointers.
